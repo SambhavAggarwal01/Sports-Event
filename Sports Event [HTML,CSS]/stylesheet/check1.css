@@ -1,0 +1,113 @@
+
+.active{
+    color: black;
+    background-color: white
+}
+.left{
+    
+    background-color: #767612;
+    float: left;
+    border: 2%;
+
+}
+.right{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+img{
+    display:block;
+   width: 150px;
+   height: 150px;
+   border: 4%;
+   /* border-width: 200px; */
+   margin-bottom: 1cm;
+   margin-top: 1cm;
+   margin-left: 1cm;
+   margin-right: 1cm;
+}
+body{
+    margin: 2% ;
+    padding: 1%;
+}
+header{
+    background-color:#267FB5;
+    background-image: url(flywheel.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 1cm;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2cm;
+}
+h2{
+    color: #a52a2a;
+}
+
+
+
+nav a{
+    line-height: 45px;
+    height:45px ;
+    margin-left: 2cm;
+    padding: 2px;
+    background-color: inherit;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color:transparent;
+    opacity: 1;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+nav a:active{
+    background-color: blanchedalmond;
+}
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.65cm;
+    font-weight: 100;
+    line-height: 1cm;
+    width: 800px;
+    margin: 70px;
+   margin-left:400px;
+   margin-right: 100px;
+}
+th{ border-bottom: thick;
+    font-weight: 600;
+    font-variant: small-caps;
+    background: -moz-linear-gradient(,#72874f,#899c6a);
+   background: linear-gradient(#72874F,#899c6a);
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;  
+}
+tr {
+    opacity: 0.8;
+    text-align: center;   
+}
+tr:hover{
+    opacity: 1;
+    color:black;
+    font-weight: 600;
+}
+tr th:first-child{
+    text-align: left;
+}
+tr td:first-child{
+    text-align: left;
+}
+td{
+    padding:2px;
+    color:grey;
+    background-color: #E4F5D4;
+    border-radius:2px;
+    text-shadow: 10px;
+}
